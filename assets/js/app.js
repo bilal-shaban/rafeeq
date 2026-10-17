@@ -43,7 +43,7 @@
   };
   function icon(name, cls) { return '<svg class="' + (cls || '') + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="' + (ICONS[name] || ICONS.help) + '"/></svg>'; }
 
-  var MARK = '<svg class="rm-mark" viewBox="0 0 44 50" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M22 2c9 8 16 14 16 26v20H6V28C6 16 13 10 22 2z"/><path d="M22 14c5 4 8 8 8 15v19H14V29c0-7 3-11 8-15z" opacity=".6"/><path d="M22 24l2.6 5.4 5.9.9-4.3 4.2 1 5.9L22 37.5l-5.2 2.9 1-5.9-4.3-4.2 5.9-.9z" fill="currentColor" stroke="none" opacity=".9"/></svg>';
+  var MARK = '<img class="rm-mark" src="assets/images/logo.png" alt="" width="44" height="44">';
 
   /* ---------------- تنسيق ---------------- */
   var S = { me: null, schema: null, tz: 'Asia/Riyadh', currency: 'SAR' };
